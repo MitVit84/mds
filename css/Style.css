@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: 'PT Sans', sans-serif;
+    display: flex;
+    flex-direction:column;
+  }
+  
+  .link {
+    color: rgb(133, 70, 70);
+  }
+  
+  .link:hover {
+    color: rgb(175, 113, 216);
+  }
+  
+  .header {
+    padding: 30px;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    transition: margin-right 2s;
+  }
+  
+  .header-link{
+    margin: 0 40px;
+  }
+  
+  .main {
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    flex-grow: 1;
+    padding-top: 50px;
+  }
+  
+  .img {
+    border: ;
+    background-color: rgb(120, 128, 243);
+    padding: 20px;
+    text-align: center; 
+  }
+  
+  .title {
+    font-family: 'Bruno Ace SC', cursive;
+    color: rgb(75, 99, 240);
+    text-align: center;
+  }
+  h1.title{
+    margin-bottom: 40px;
+  }
+  
+  .subtitle {
+    font-family: 'Bruno Ace SC', cursive;
+    border: 2px solid rgb(48, 161, 236);
+    padding-left: 250px;
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+  }
+  
+  .footer {
+    border-top: 1px solid rgb(17, 16, 16);
+    padding: 20px;
+    text-align: center;
+    color: gray;
+  }
+  .contacts{
+    display: flex;
+  }
+  .contacts-icon{
+    margin-right: 15px;
+  }
+  .main-section{
+    flex-grow: 3;
+    padding-left: 20px;
+  }
+  .header-link{
+  transition-duration: 1000ms;
+  } 
+  .header-link:hover{
+    font-size: 50px;
+  }
